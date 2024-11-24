@@ -1,0 +1,86 @@
+{
+  "_resourceType": "scene",
+  "id": "028e488c-1c30-47fc-b35b-ebf93faad941",
+  "_index": 0,
+  "name": "startTest",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": null,
+  "symbol": "scene_1",
+  "x": 60,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2",
+        "__collapse": true
+      },
+      "id": "0057625a-1c33-4793-aae0-360c4d2d38d6"
+    },
+    {
+      "command": "EVENT_RESET_VARIABLES",
+      "args": {
+        "__collapse": true
+      },
+      "id": "04a19fa6-f895-4bd0-8473-92176fb644bb"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start",
+          "select",
+          "right",
+          "down",
+          "up",
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_RNG_SEED",
+            "args": {
+              "__collapse": true
+            },
+            "id": "2da013f9-6ba2-4803-a9b8-2119b3d760b9"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "30745d6e-cbec-44d2-8ab6-4a7c4f309e47",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "6c3f658e-612e-43bc-9fcf-09e02023fe76"
+          }
+        ]
+      },
+      "id": "bb2c1d29-25c6-4b02-ad2a-25745e5262ae"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

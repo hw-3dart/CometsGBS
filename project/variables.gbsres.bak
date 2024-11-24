@@ -1,0 +1,15 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "playerDir",
+      "symbol": "var_playerdir"
+    },
+    {
+      "id": "1",
+      "name": "bulletAngle",
+      "symbol": "var_bulletangle"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8b728cce-a4af-45fd-bad2-c664fddff22b",
+  "name": "bgSpace01",
+  "symbol": "bg_bgspace01",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "bgSpace01.png",
+  "tileColors": ""
+}

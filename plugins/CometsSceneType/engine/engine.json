@@ -1,0 +1,13 @@
+{ "version": "4.2.0-e1" ,
+
+"sceneTypes": [
+
+{
+	"key": "COMETS",
+	"label": "Comets",
+	"files": ["include/states/comets.h", "src/states/comets.c"]
+}
+
+]
+
+}

@@ -1,0 +1,63 @@
+{
+  "_resourceType": "script",
+  "id": "c10cc129-d883-47b2-aec4-a66b760758c2",
+  "name": "scrRandomD4",
+  "description": "0 - 3",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "2",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "V0",
+        "value": "0",
+        "minValue": "0",
+        "maxValue": 5,
+        "clamp": false,
+        "__collapse": false
+      },
+      "id": "59d68655-ec9e-4578-a1b0-169279319bd4"
+    },
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "2",
+              "operation": "set",
+              "other": "rnd",
+              "vectorY": "V0",
+              "value": "0",
+              "minValue": "0",
+              "maxValue": 5,
+              "clamp": false,
+              "__collapse": false
+            },
+            "id": "52240cd5-269a-42f6-ad88-d1b5fa696618"
+          }
+        ]
+      },
+      "id": "53244dd3-4c2f-4d2a-b386-2dd5648dc0a3"
+    }
+  ]
+}
